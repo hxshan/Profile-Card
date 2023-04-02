@@ -17,13 +17,12 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    background-color:hsl(185, 75%, 39%);
+    background-color:hsl(185deg, 75%, 39%);
     overflow-y: hidden;
     overflow-x: hidden;
     background-image: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
-    background-size:35rem;
     background-repeat: no-repeat,no-repeat;
-    background-position: -370px -200px,150px 340px;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 .card-container{
     width: 20rem;
@@ -99,19 +98,4 @@
 }
 .bottom-col-right{
     margin-right: 2rem;
-}
-@media screen and (min-width:1024px) {
-    .background{
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        background-color:hsl(185, 75%, 39%);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-image: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
-        background-size:45vw,55vw;
-        background-repeat: no-repeat,no-repeat;
-        background-position: 5vw -35vh,50vw 45vh;
-    }
 }
